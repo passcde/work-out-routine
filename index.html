@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>work routine</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="container">
+	<h1>Workout Ruoutine Generator</h1>
+	<label for="days-select">select number of days:</label>
+	<select id="days-select" onchange="generateRoutine()">
+		<option value="">--choose days--</option>
+		<option value="3">3 Days</option>
+		<option value="4">4 Days</option>
+		<option value="5">5 Days</option>
+	</select>
+	<div id="routine"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
